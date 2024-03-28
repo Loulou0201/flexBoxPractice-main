@@ -1,0 +1,56 @@
+header{
+    border: solid 2px;
+    background-color: brown;
+    height: 160px;
+    margin-bottom:20px ;
+    
+}
+
+.nav0{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.nav1{
+    background-color: darkgoldenrod;
+    border: solid 2px;
+    height: 60px;
+    margin-bottom: 20px;
+    flex-basis: 20%;
+}
+
+main{
+    display:flex;
+    height: 160px;
+    margin-top: 20px;
+    
+  
+}
+.section1{
+       
+    flex-basis: 25%;
+    background-color:blue;
+    border: solid 2px;
+    margin-right: 20px;
+    
+    
+}
+.section2{
+   
+    flex-basis: 75%;
+    background-color: green;
+    border: solid 2px;
+    margin-left: 20px;
+    
+    
+    
+    
+}
+footer{
+    border: solid 2px;
+    background-color:blueviolet;
+    height: 160px;
+    margin-top: 20px;
+    
+}

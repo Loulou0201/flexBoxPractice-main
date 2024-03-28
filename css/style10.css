@@ -1,0 +1,111 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border: solid 5px;
+    background-color: brown;
+    height: 170px;
+    margin-bottom:20px ;
+    margin-top: 20px;
+}
+
+.square{
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+    border: solid 5px;
+    margin:auto;
+    margin-left:40px;
+ 
+    
+}
+
+p{
+   font-family: 'Times New Roman', Times, serif;
+   font-size:xx-large; 
+   font: bolder;
+   margin-right: 40px;
+   
+}
+
+.nav0{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.nav1{
+    background-color: darkgoldenrod;
+    border: solid 5px;
+    height: 60px;
+    margin-bottom: 20px;
+    flex-basis: 15%;
+}
+
+.inv{
+    background-color: white;
+    height: 60px;
+    margin-bottom: 20px;
+    flex-basis: 10%;
+}
+
+.circle{
+    background-color:chartreuse;
+    border-radius: 50%;
+    border: solid 5px;
+    height: 60px;
+    margin-bottom: 20px;
+    flex-basis: 4%;
+}
+
+main{
+    display:flex;
+    height: 170px;
+  
+}
+.class1{
+       
+    flex-basis: 25%;
+    background-color:blue;
+    border: solid 5px;
+    margin-right: 20px;
+    
+    
+}
+.class2{
+   
+    flex-basis: 75%;
+    background-color: rgb(2, 56, 38);
+    border: solid 5px;
+    margin-left: 20px;
+    
+    
+    
+    
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: solid 5px;
+    background-color:rgb(226, 43, 49);
+    height: 170px;
+    margin-top: 20px;
+}
+
+.foot{
+    background-color: pink;
+    border: solid 5px black;
+    font: bolder;
+    font-size: x-large;
+    color: white;
+    height: 80px;
+    flex-basis: 100px;
+    margin: 8px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
